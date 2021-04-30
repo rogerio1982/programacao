@@ -1,0 +1,4 @@
+entrada1=560
+entrada2=899
+processamento = entrada1 + entrada2
+print("saída: ", processamento)
