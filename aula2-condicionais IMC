@@ -1,0 +1,19 @@
+#aprendendo python
+# Aqui calculamos o IMC
+peso=120
+altura=1.70
+imc = peso / (altura * altura)
+
+# Verificamos o IMC para mostrar a mensagem adequada.
+if imc < 18.5:
+    print(" você está Abaixo do peso",imc)
+elif imc < 24.99:
+    print(" você está no Peso normal",imc)
+elif imc < 29.99:
+    print("você está com Sobrepeso",imc)
+elif imc < 34.99:
+    print("você está com Obesidade Grau I",imc)
+elif imc < 39.99:
+    print("você está com Obesidade Grau II",imc)
+else:
+    print(" você está com Obesidade Morbida",imc)
