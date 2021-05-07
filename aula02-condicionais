@@ -1,0 +1,10 @@
+nota1=2
+nota2=2
+m=(nota1+nota2)/2
+
+if m < 5:
+    print("reprovada :(",m)
+elif m>6 and m<7:
+    print("recuperecao :|",m)
+else:
+    print("aprovada :)",m)
