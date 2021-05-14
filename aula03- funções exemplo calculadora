@@ -1,0 +1,23 @@
+#aula 03: aprendendo a usar funções
+
+def soma(a,b):
+    c=a+b
+    return c
+    
+def mult(a,b):
+    c=a*b
+    return c
+
+def sub(a,b):
+    c=a-b
+    return c
+
+def divi(a,b):
+    c=a/b
+    return c
+
+print ("calculadora")
+print("soma: ",soma(89,56))
+print("mult:", mult(54,87))
+print("sub: ", sub(25,23))
+print("divisão:", divi(81,9))
