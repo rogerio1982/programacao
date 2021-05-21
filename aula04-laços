@@ -1,0 +1,6 @@
+#laços de repetição: for e while
+print("TABUADA")
+numero = 9
+for x in range(10):
+    print(x, "*", numero, "=",x*numero)
+
