@@ -1,6 +1,19 @@
-#laços de repetição: for e while
-print("TABUADA")
+#laço de repetição: for
+print("TABUADA USANDO FOR")
 numero = 9
 for x in range(10):
     print(x, "*", numero, "=",x*numero)
+
+
+
+#laços de repetição: while
+
+x=0
+numero = 9
+print("TABUADA USANDO WHILE")
+while x <= 10:
+    print(x, "x",numero, "=",x*numero)
+    x+=1
+    
+print("turma info :)")
 
