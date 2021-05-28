@@ -1,0 +1,12 @@
+#lista (vetores): usados para armazenar diversos itens
+#criar um carrinho de compras
+
+print ("CARRINHO DE COMPRAS")
+print ("===========================")
+carrinho= ["echo", "roteador","macbook","mouse"]
+print ("Produtos",carrinho)
+
+valores = [499,139,8385,150]
+print ("valores: R$",valores)
+print ("===========================")
+print("Sub total: ",len (valores),"itens: R$",sum(valores))
