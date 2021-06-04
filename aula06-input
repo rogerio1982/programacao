@@ -1,0 +1,10 @@
+#trabalhando com entradas de dados input
+#entradas: letras, números (inteiros, frações, etc)
+
+c = float(input("digite o capital: "))
+i = float(input("digite a taxa: "))
+t = float(input("digite o tempo: "))
+
+j = (c*i*t) / 100
+
+print ("calculo: ", j)
