@@ -1,0 +1,16 @@
+import math
+import random
+
+x = math.pow(4,2)
+y = math.sqrt(81)
+w = min(5,8,9,2,3,5)
+z = max(5,8,9,2,3,5)
+pi = math.pi
+
+print ("Potência: ",x)
+print ("Raiz: ",y)
+print ("max: ",w)
+print ("min: ",z)
+print ("pi: ",pi)
+
+print("gerar números aleatório: ",random.randint(0,10))
